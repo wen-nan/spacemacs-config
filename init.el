@@ -47,9 +47,10 @@ This function should only modify configuration layer settings."
      )
      (python :variables
              python-formatter 'yapf
-             python-enable-yapf-format-on-save t
+             python-format-on-save t
              python-backend 'anaconda
              python-sort-imports-on-save t
+             python-fill-column 99
       )
      (osx :variables
           osx-command-as  'hyper
