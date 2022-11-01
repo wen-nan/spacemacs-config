@@ -46,6 +46,7 @@ This function should only modify configuration layer settings."
          go-dap-mode 'dap-dlv-go
      )
      (python :variables
+             python-formatter 'yapf
              python-enable-yapf-format-on-save t
              python-backend 'anaconda
              python-sort-imports-on-save t
