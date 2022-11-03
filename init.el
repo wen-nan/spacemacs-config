@@ -607,8 +607,8 @@ before packages are loaded."
   ;; highlight long lines 80
   (spacemacs/toggle-highlight-long-lines-globally-on)
   ;; auto-saving freuency
-  (setq auto-save-interval 100
-        auto-save-timeout 10
+  (setq auto-save-interval 10
+        auto-save-timeout 1
    )
 )
 
