@@ -603,12 +603,13 @@ Put your configuration code here, except for variables that should be set
 before packages are loaded."
   (display-time-mode t)
   ;; Set escape keybinding to "jk"
-  (setq-default evil-escape-key-sequence "jk")
+  (setq evil-escape-key-sequence "jk")
   ;; highlight long lines 80
   (spacemacs/toggle-highlight-long-lines-globally-on)
-  ;auto save frequency
+  ;; auto-saving freuency
   (setq auto-save-interval 100
-        auto-save-timeout 1)
+        auto-save-timeout 10
+   )
 )
 
 
