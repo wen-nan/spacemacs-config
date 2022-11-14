@@ -43,6 +43,7 @@ This function should only modify configuration layer settings."
          go-tab-width 4
          go-use-golangci-lint t
          go-format-before-save t
+         go-backend 'lsp
      )
      (python :variables
              python-formatter 'yapf
